@@ -1,0 +1,21 @@
+{
+  "name": "@majeeko/server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "env-cmd ../.env nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "env-cmd": "^8.0.2",
+    "http-proxy": "^1.17.0",
+    "nodemon": "^1.18.6"
+  }
+}
